@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: hotpink;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list {
+  background-color: white;
+  width: 23rem;
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  padding: 0 1rem;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin-bottom: -10px;
+}
+
+.age {
+  font-size: small;
+  color: gray;
+}
+
+.clearBtn {
+  background-color: hotpink;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-size: large;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.clearBtn:hover {
+  background-color: deeppink;
+}
